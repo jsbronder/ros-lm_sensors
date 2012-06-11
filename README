@@ -1,0 +1,29 @@
+=== Summary ===
+
+ros-lm_sensors is a small wrapper around lm_sensors [1] that
+pushes the output of the detected sensors into ROS diagnostics.
+Each sensor is published as a separate diagnostic and the status
+is determined by the status of the sensors alarm.
+
+This package requires that lm_sensors is installed.
+
+=== License ===
+The source code of this package is licensed under the BSD 3
+clause license.  However, as the package does link against the
+GPL licensed libsensors, the distribution as a whole is
+considered to fall under the GPL.
+
+=== Building ===
+The environment must be setup such that ROS is functioning.  Then
+the standard cmake process will suffice.
+
+$ source /opt/ros/<distribution>/setup.sh
+$ mkdir build
+$ cd build
+$ cmake ../
+$ make
+
+
+1. http://lm-sensors.org/
+
+# vim: ft=txt

@@ -1,0 +1,9 @@
+<stack>
+  <description brief="lm_sensors">
+    This node wraps lm_sensors providing diagnostic information about the host computer.
+  </description>
+  <author>Justin Bronder</author>
+  <license>GPL</license>
+  <url>http://github.com/jsbronder/ros-lm_sensors</url>
+</package>
+
