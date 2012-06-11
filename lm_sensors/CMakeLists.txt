@@ -47,3 +47,5 @@ if (libs_only_other)
         LINK_FLAGS ${libs_only_other})
 endif()
 
+INSTALL(TARGETS lm_sensors
+    DESTINATION "bin")
